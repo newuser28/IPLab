@@ -1,0 +1,508 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+
+body{
+	text-align:left;
+	color:#fff;
+	background-color:#000;
+	font-size:100%;
+	font-family:"Cabin", sans-serif;
+
+}
+
+.body{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a{
+	color:#C0C0F0;
+}
+
+a:Linked. a:visited{
+	color:#C0C0F0;
+}
+
+a:hover,a:active{
+	color:#686BFF;
+}
+
+
+/*Styling for menu bar. all components in menu.php */
+.mainheader{
+	
+	width:1000px;
+	height:50px;
+	background-color:#000;
+	border-bottom:3px solid #A6A616;
+	margin-left:auto;
+	margin-right:auto;
+	
+	overflow:hidden;
+}
+
+.mainheader nav ul li{
+	display:inline;
+	float:left;
+}
+
+.mainheader nav a:link, .mainheader a:visited{
+	color:#fff;
+	display:inline-block;
+	padding:17px 25px;
+	margin-right:5px;
+}
+
+.mainheader nav a:hover, .mainheader a:active, .mainheader nav .active a:link, .mainheader .active a:visited{
+	text-shadow:none;
+	color:#A6A616;
+	border-top:3px solid #A6A616;
+	cursor:pointer;
+}
+
+.fullwidth{
+	height:50px;
+	background-color:#000;
+	width:100%;
+	clear:both;
+	border-bottom:3px solid #A6A616;
+}
+
+.search input{
+	padding:5px;
+	margin-top:10px;
+	float:right;
+	background:#000;
+	border:1px solid;
+	outline:none;
+	color:#A6A616;
+}
+
+.search input:focus{
+	border: 1px solid #fff;
+	/*color:#A6A616*/
+}
+
+
+::-webkit-input-placeholder{
+	color:#fff;
+}
+
+:-moz-input-placeholder{   /*  Firefox 18- */
+	color:#fff;
+}
+
+::-moz-input-placeholder{   /*  Firefox 19+ */
+	color:#fff;
+}
+
+:-ms-input-placeholder{ 
+	color:#fff;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-left:1px solid #fff;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #A6A616;
+  outline: none;
+  border-radius:100px;
+}
+
+
+.about::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+.about::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-left:1px solid #fff;
+}
+ 
+.about::-webkit-scrollbar-thumb {
+  background-color: #A6A616;
+  outline: none;
+  border-radius:100px;
+}
+
+
+
+/*styling for drop down champions menu. #chm contained in menu.php */
+#chm{
+	border-left:1px solid #A6A616;
+	border-right:1px solid #A6A616;
+	display:none;
+	position:fixed;
+	background:#000;
+	
+	top:50px;
+}
+
+#chm li{
+	display:inline;
+	float:left;
+	clear:both;
+	text-align:center;
+	width:120px;
+	cursor:pointer;
+	border-bottom:1px solid #A6A616;
+}
+
+#chm li a{
+	cursor:pointer;
+}
+
+#chm a:link, #chm a:visited{
+	color:#fff;
+}
+
+#chm li a:hover{
+	color:#A6A616;
+	border-top:none;
+}
+
+
+
+/* Styling for News. div_left and div_right in index.php */
+.right{
+	float:right;
+	width:600px;
+	clear:right;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+.left{
+
+	float:left;
+	width:380px;
+	clear:left;
+	margin-top:20px;	
+}
+
+/*continuation of News. Contained in latestarticles.php */
+.la{
+	width:300px;
+	margin-bottom:10px;
+	height:auto;
+	border:1px solid #A6A616;
+	padding:10px;
+}
+
+.lahead{
+	padding:10px;
+	font-size:25px;
+	border-bottom:1px solid #A6A616;
+}
+
+.labody{
+	padding:5px;
+}
+
+.lapost{
+	clear:both;
+	width:300px;
+	margin-bottom:10px;
+	cursor:pointer;
+}
+
+.lapost a{
+	color:#fff;
+}
+
+.lapost a:hover{
+	color:#A6A616;
+}
+
+.laposthead{
+	font-weight:bold;
+	padding:10px;
+}
+
+.lapostbody{
+	padding-left:30px;
+}
+
+
+.news{
+	margin-bottom:20px;
+	border:1px solid #A6A616;
+}
+
+.newshead{
+	padding:10px;
+	font-size:25px;
+	border-bottom:1px solid #A6A616;
+}
+
+.newsbody{
+	padding:10px;
+	margin-bottom:5px;
+	
+}
+
+.newsbody p{
+	padding:10px;
+	margin-top:20px;
+}
+
+.newsbody a{
+	color:#FCED74;
+}
+
+.newsbody a:hover{
+	color:#A6A616;
+}
+
+#showmore{
+	display:none;
+	
+}
+
+
+#show{
+	padding:10px;
+	max-width:100px;
+	border:1px solid #A6A616;
+	cursor:pointer;
+}
+
+#show:hover, #less:hover{
+	color:#A6A616;
+	border:1px solid #fff;
+	cursor:pointer;
+}
+
+
+/* Styling for About. All divs contained in menu.php */
+.about{
+	width:1000px;
+	height:200px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:30px;
+	border-bottom:3px solid #A6A616;
+	border-right:3px solid #A6A616;
+	border-left:3px solid #A6A616;
+	display:none;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+
+
+.about a{
+	color:#fff;
+}
+
+.about a:hover{
+	color:#A6A616;
+}
+
+#contactdiv input{
+	padding:5px;
+	float:left;
+	background:#000;
+	border:1px solid #A6A616;
+	margin-bottom:10px;
+	color:#A6A616;
+	outline:none;
+	min-width:300px;
+}
+
+#contactdiv input:focus{
+	background:#666;
+	border:1 px solid #fff;
+	margin-right:10px;
+	color:#000;
+	outline:none;
+}
+
+#contactdiv textarea{
+	float:left;
+	background:#000;
+	border:1px solid #A6A616;
+	color:#A6A616;
+	padding:5px;
+	min-height:180px;
+	max-height:180px;
+	min-width:300px;
+	max-width:300px;
+	resize:none;
+	outline:none;
+}
+
+#contactdiv textarea:focus{
+	background:#666;
+	border:1px solid #A6A616;
+	color:#000;
+	outline:none;
+}
+
+
+.l{
+	width:300px;
+	margin-right:10px;
+	padding:10px;
+	float:left;
+	margin-top:-12px;
+}
+
+.sb{
+	padding:10px;
+	margin-top:20px;
+	border:1px solid #A6A616;
+	display:inline-block;
+	float:left;
+	background:#000;
+	color:#A6A616;
+}
+
+.sb hover{
+	border:1px solid #A6A616;
+	background:#666;
+	color:#000;
+}
+
+.freechampions{
+	padding:10px;
+	width:1050px;
+
+	margin-top:100px;
+	border:2px solid #A6A616;
+}
+
+.freechampionshead{
+	padding:10px;
+	border-bottom:2px solid #fff;
+	font-size:25px;
+}
+
+.freechampionshead h2{
+	margin-bottom:3px;
+}
+
+.freechampionsbody{
+	padding:5px;
+	margin-left:12px;
+}
+
+.freechampionsbody img{
+	width:95px;
+	height:160px;
+	margin-left:2.3px;
+	margin-bottom:5px;
+	margin-top:5px;
+	cursor:pointer;
+}
+
+.championinfo{
+	padding:30px;
+	border-top:2px solid #fff;
+	margin-top:5px;
+	display:none;
+}
+
+#close{
+	float:right;
+	cursor:pointer;
+	margin-top:-29px;
+	display:none;
+}
+
+
+
+
+.dispchampions{
+	padding:10px;
+	width:1100px;
+	margin-top:100px;
+	border:2px solid #A6A616;
+	margin-left:auto;
+	margin-right:auto;
+	display:none;
+	
+}
+
+
+#dispchampall a img, #dispchampas a img, #dispchampfi a img, #dispchampmag a img, #dispchampmar a img{
+		margin-left:5px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+#dispchampall, #dispchampas, #dispchampfi, #dispchampmag, #dispchampmar {
+	margin-left:30px;
+	
+}
+
+#dispchampallhead, #dispchampashead, #dispchampfihead, #dispchampmaghead, #dispchampmarhead{
+		padding:10px;
+	border-bottom:2px solid #fff;
+	font-size:25px;
+}
+
+
