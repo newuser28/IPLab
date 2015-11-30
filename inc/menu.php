@@ -320,6 +320,27 @@ Visit the link below to begin playing!<br><br>
 		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/shaco/"><img src="/IP/imgthumb/Shaco.png"/></a>
 		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/shen/"><img src="/IP/imgthumb/Shen.png"/></a>
 		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/shyvana/"><img src="/IP/imgthumb/Shyvana.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/evelynn/"><img src="/IP/imgthumb/Evelynn.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/ezreal/"><img src="/IP/imgthumb/Ezreal.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/fiddlesticks/"><img src="/IP/imgthumb/Fiddlesticks.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/fiora/"><img src="/IP/imgthumb/Fiora.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/fizz/"><img src="/IP/imgthumb/Fizz.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/galio/"><img src="/IP/imgthumb/Galio.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/gangplank/"><img src="/IP/imgthumb/Gangplank.png"/></a>      
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/garen/"><img src="/IP/imgthumb/Garen.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/gnar/"><img src="/IP/imgthumb/Gnar.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/gragas/"><img src="/IP/imgthumb/Gragas.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/graves/"><img src="/IP/imgthumb/Graves.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/hecarim/"><img src="/IP/imgthumb/Hecarim.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/heimerdinger/"><img src="/IP/imgthumb/Heimerdinger.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/irelia/"><img src="/IP/imgthumb/Irelia.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/janna/"><img src="/IP/imgthumb/Janna.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/jarvaniv/"><img src="/IP/imgthumb/JarvanIV.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/jax/"><img src="/IP/imgthumb/Jax.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/jayce/"><img src="/IP/imgthumb/Jayce.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/jinx/"><img src="/IP/imgthumb/Jinx.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/kalista/"><img src="/IP/imgthumb/Kalista.png"/></a>
+		<a href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/karma/"><img src="/IP/imgthumb/Karma.png"/></a>	
 	</div>
 	
 	
